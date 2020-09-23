@@ -35,19 +35,18 @@ import logging
 from htmlentitydefs import codepoint2name
 import unicodedata
 
-'''
+
 def escapecp(cp):
     return '&%s;' % codepoint2name[cp] if (cp in codepoint2name) else chr(cp)
+
 '''
-
-
 def escapecp(cp):
     try:
         wynik = '&%s;' % codepoint2name[cp] if (cp in codepoint2name) else chr(cp)
     except:
         wynik = ''
     return wynik
-
+'''
 '''
 def escapecp(cp):
     try:
