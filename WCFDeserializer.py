@@ -4,7 +4,7 @@ WCFDeserializer Burp Plugin v1.0
 
 Works without external ".exe", requires jython.
 Tested on macOS and Windows 10 with Burp 2020.9.1
-#  WCFDeserializer Copyright (c) 2020, Mariusz Popławski <mpoplawski@afine.com> (afine.pl team)
+#  WCFDeserializer Copyright (c) 2020, Maciej Domański <mddomanski@afine.com> and Mariusz Popławski <mpoplawski@afine.com> (afine.pl team)
 
 #  WCF Library Copyright (c) 2011, Timo Schmid <tschmid@ernw.de>
 
